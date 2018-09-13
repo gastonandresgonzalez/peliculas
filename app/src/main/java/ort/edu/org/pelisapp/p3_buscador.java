@@ -10,4 +10,6 @@ public class p3_buscador extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_p3_buscador);
     }
+
+
 }
