@@ -4,6 +4,12 @@ android:orientation="vertical" android:layout_width="match_parent"
 android:layout_height="match_parent">
 
     <TextView
+        android:id="@+id/tv_pelicula_id"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:text="Id"/>
+
+    <TextView
         android:id="@+id/tv_pelicula_titulo"
         android:layout_width="270dp"
         android:layout_height="40dp"
