@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical" android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_pelicula_titulo"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:text="Titulo"/>
+
+    <TextView
+        android:id="@+id/tv_pelicula_anio"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:text="Año"/>
+
+    <TextView
+        android:id="@+id/tv_pelicula_url"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:textColor="#4bb6d6"
+        android:text="Url"/>
+
+    <TextView
+        android:id="@+id/tv_pelicula_descripcion"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:textColor="#4bb6d6"
+        android:text="Descripcion"/>
+
+    <TextView
+        android:id="@+id/tv_pelicula_duracion"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:textColor="#4bb6d6"
+        android:text="Duracion"/>
+
+    <TextView
+        android:id="@+id/tv_pelicula_rating"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:textColor="#4bb6d6"
+        android:text="Rating"/>
+
+    <TextView
+        android:id="@+id/tv_pelicula_director"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:text="Director"/>
+
+    <TextView
+        android:id="@+id/tv_pelicula_genero"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:text="Genero"/>
+
+</LinearLayout>

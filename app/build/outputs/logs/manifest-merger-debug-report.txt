@@ -5,6 +5,31 @@ INJECTED from D:\AndroidStudioProjects\peliculas\app\src\main\AndroidManifest.xm
 INJECTED from D:\AndroidStudioProjects\peliculas\app\src\main\AndroidManifest.xml:2:1-21:12
 INJECTED from D:\AndroidStudioProjects\peliculas\app\src\main\AndroidManifest.xml:2:1-21:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\6d6c779eac1c6e806cb4571742b8b79e\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:appcompat-v7:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0-rc02.aar\ab745c508e3305ce9f42e6092866220b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0-rc02.aar\4e13214adfe4598c9d7d8dce36835610\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0-rc02.aar\ebe6a81a606182aae47ceb72beb1e158\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0-rc02.aar\6f50ff98c26215dd62f3707cef483233\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0-rc02.aar\0e74bebd0b794e9ab29862ddc8139d85\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0-rc02.aar\6d1189c0c192b007c6134955518de3e8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\loader-28.0.0-rc02.aar\0813af60e940411e3acc15b6a0d9c023\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0-rc02.aar\311740039a52ad647b3ec367560916be\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0-rc02.aar\056d133d76d63c41cd3caa27949fec41\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0-rc02.aar\de9d7b323e71de4694a2551991b188ba\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0-rc02.aar\913b175695f0b8d50c434a6197818286\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\customview-28.0.0-rc02.aar\690bf036669a741e673e6eb7a4d41c8d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0-rc02.aar\e2602d91f75db791b49c30d4e4f8c232\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0-rc02.aar\410433f771dfee40243ee3fd50f92a56\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc02.aar\a0c54814269f139906630d7428f78535\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-rc02.aar\a63ca447601701d38c48dd1deed53eea\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0-rc02.aar\ec791f2adeafcfd72bd232d82b6d2978\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\7f06c8e68c2498a392303b2e0d2d933c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0-rc02.aar\3e6417f87b43733f7dec0d9b2d45a281\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0-rc02.aar\090b70b3dfbcd1bad5e71dee47d64a48\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\print-28.0.0-rc02.aar\55b452acca02c261126e91e494c69d8e\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\4e18e0a828b6fa8b9cdd03e63f74308f\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\4a1cf822825e57628e12b7ab8b914e18\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\7fe00ae00cd46d784b0d1486ea164c72\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0-rc02.aar\c187810b167a63271549b461e2451b20\AndroidManifest.xml:17:1-22:12
 INJECTED from D:\AndroidStudioProjects\peliculas\app\src\main\AndroidManifest.xml:2:1-21:12
 INJECTED from D:\AndroidStudioProjects\peliculas\app\src\main\AndroidManifest.xml:2:1-21:12
 INJECTED from D:\AndroidStudioProjects\peliculas\app\src\main\AndroidManifest.xml:2:1-21:12
@@ -26,6 +51,12 @@ application
 ADDED from D:\AndroidStudioProjects\peliculas\app\src\main\AndroidManifest.xml:5:5-19:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\6d6c779eac1c6e806cb4571742b8b79e\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\6d6c779eac1c6e806cb4571742b8b79e\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc02.aar\a0c54814269f139906630d7428f78535\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc02.aar\a0c54814269f139906630d7428f78535\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-rc02.aar\a63ca447601701d38c48dd1deed53eea\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-rc02.aar\a63ca447601701d38c48dd1deed53eea\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc02.aar\a0c54814269f139906630d7428f78535\AndroidManifest.xml:22:18-91
 	android:supportsRtl
 		ADDED from D:\AndroidStudioProjects\peliculas\app\src\main\AndroidManifest.xml:10:9-35
 	android:label
@@ -58,6 +89,56 @@ INJECTED from D:\AndroidStudioProjects\peliculas\app\src\main\AndroidManifest.xm
 INJECTED from D:\AndroidStudioProjects\peliculas\app\src\main\AndroidManifest.xml
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\6d6c779eac1c6e806cb4571742b8b79e\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\6d6c779eac1c6e806cb4571742b8b79e\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:appcompat-v7:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0-rc02.aar\ab745c508e3305ce9f42e6092866220b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0-rc02.aar\ab745c508e3305ce9f42e6092866220b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0-rc02.aar\4e13214adfe4598c9d7d8dce36835610\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0-rc02.aar\4e13214adfe4598c9d7d8dce36835610\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0-rc02.aar\ebe6a81a606182aae47ceb72beb1e158\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0-rc02.aar\ebe6a81a606182aae47ceb72beb1e158\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0-rc02.aar\6f50ff98c26215dd62f3707cef483233\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0-rc02.aar\6f50ff98c26215dd62f3707cef483233\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0-rc02.aar\0e74bebd0b794e9ab29862ddc8139d85\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0-rc02.aar\0e74bebd0b794e9ab29862ddc8139d85\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0-rc02.aar\6d1189c0c192b007c6134955518de3e8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0-rc02.aar\6d1189c0c192b007c6134955518de3e8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\loader-28.0.0-rc02.aar\0813af60e940411e3acc15b6a0d9c023\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\loader-28.0.0-rc02.aar\0813af60e940411e3acc15b6a0d9c023\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0-rc02.aar\311740039a52ad647b3ec367560916be\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0-rc02.aar\311740039a52ad647b3ec367560916be\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0-rc02.aar\056d133d76d63c41cd3caa27949fec41\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0-rc02.aar\056d133d76d63c41cd3caa27949fec41\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0-rc02.aar\de9d7b323e71de4694a2551991b188ba\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0-rc02.aar\de9d7b323e71de4694a2551991b188ba\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0-rc02.aar\913b175695f0b8d50c434a6197818286\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0-rc02.aar\913b175695f0b8d50c434a6197818286\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\customview-28.0.0-rc02.aar\690bf036669a741e673e6eb7a4d41c8d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\customview-28.0.0-rc02.aar\690bf036669a741e673e6eb7a4d41c8d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0-rc02.aar\e2602d91f75db791b49c30d4e4f8c232\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0-rc02.aar\e2602d91f75db791b49c30d4e4f8c232\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0-rc02.aar\410433f771dfee40243ee3fd50f92a56\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0-rc02.aar\410433f771dfee40243ee3fd50f92a56\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc02.aar\a0c54814269f139906630d7428f78535\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc02.aar\a0c54814269f139906630d7428f78535\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-rc02.aar\a63ca447601701d38c48dd1deed53eea\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-rc02.aar\a63ca447601701d38c48dd1deed53eea\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0-rc02.aar\ec791f2adeafcfd72bd232d82b6d2978\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0-rc02.aar\ec791f2adeafcfd72bd232d82b6d2978\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\7f06c8e68c2498a392303b2e0d2d933c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\7f06c8e68c2498a392303b2e0d2d933c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0-rc02.aar\3e6417f87b43733f7dec0d9b2d45a281\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0-rc02.aar\3e6417f87b43733f7dec0d9b2d45a281\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0-rc02.aar\090b70b3dfbcd1bad5e71dee47d64a48\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0-rc02.aar\090b70b3dfbcd1bad5e71dee47d64a48\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\print-28.0.0-rc02.aar\55b452acca02c261126e91e494c69d8e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\print-28.0.0-rc02.aar\55b452acca02c261126e91e494c69d8e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\4e18e0a828b6fa8b9cdd03e63f74308f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\4e18e0a828b6fa8b9cdd03e63f74308f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\4a1cf822825e57628e12b7ab8b914e18\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\4a1cf822825e57628e12b7ab8b914e18\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\7fe00ae00cd46d784b0d1486ea164c72\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\7fe00ae00cd46d784b0d1486ea164c72\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0-rc02.aar\c187810b167a63271549b461e2451b20\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0-rc02.aar\c187810b167a63271549b461e2451b20\AndroidManifest.xml:20:5-44
 INJECTED from D:\AndroidStudioProjects\peliculas\app\src\main\AndroidManifest.xml
 INJECTED from D:\AndroidStudioProjects\peliculas\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
