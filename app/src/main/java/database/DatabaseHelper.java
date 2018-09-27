@@ -7,6 +7,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 import java.util.ArrayList;
 import java.util.List;
 import model.DetallePeliculas;
+import model.ListadoPeliculas;
 
 /**
  * Created by NgocTri on 11/7/2015.
@@ -68,4 +69,26 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         closeDatabase();
         return listaPeliculas;
     }
+
+    public List<ListadoPeliculas> getListadoPeliculas() {
+
+        ListadoPeliculas DetPelicula = null;
+        List<ListadoPeliculas> listaPeliculas = new ArrayList<>();
+        openDatabase();
+
+        Cursor cursor = mDatabase.rawQuery("select peliculas.idpelicula,peliculas.titulo,peliculas.anio from peliculas inner join generos on(peliculas.idgenero=generos.idgenero) inner join directores on(peliculas.iddirector=directores.iddirector)", null);
+
+        cursor.moveToFirst();
+        while (!cursor.isAfterLast()) {
+
+            DetPelicula = new ListadoPeliculas(cursor.getInt(0),cursor.getString (1),cursor.getInt(2));
+            listaPeliculas.add(DetPelicula);
+            cursor.moveToNext();
+
+        }
+        cursor.close();
+        closeDatabase();
+        return listaPeliculas;
+    }
+
 }
