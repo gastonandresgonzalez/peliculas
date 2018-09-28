@@ -1,11 +1,11 @@
 #Internal package file, do not edit.
-#Thu Sep 06 20:06:16 ART 2018
-1.base=D\:\\AndroidStudioProjects\\PelisApp\\app\\build\\intermediates\\assets\\debug
+#Mon Sep 17 13:14:27 ART 2018
+1.base=D\:\\AndroidStudioProjects\\peliculas\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\16
 0.baseType=DIRECTORY
 1.baseType=DIRECTORY
 count=2
-1.set=ASSET
-0.path=classes.dex
-0.set=DEX
-0.base=D\:\\AndroidStudioProjects\\PelisApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\16
-1.path=databases/mydatabase.sqlite
+1.set=DEX
+0.path=databases/mydatabase.sqlite
+0.set=ASSET
+0.base=D\:\\AndroidStudioProjects\\peliculas\\app\\build\\intermediates\\assets\\debug
+1.path=classes.dex
