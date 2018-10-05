@@ -1,5 +1,6 @@
 package database;
 
+import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
@@ -8,6 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 import model.DetallePeliculas;
 import model.ListadoPeliculas;
+import model.User;
 
 /**
  * Created by NgocTri on 11/7/2015.
@@ -89,6 +91,35 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         cursor.close();
         closeDatabase();
         return listaPeliculas;
+    }
+
+    public boolean checkUser(User usuario){
+
+        int tmpIdUser=0;
+
+        openDatabase();
+
+        Cursor cursor = mDatabase.rawQuery("select idusuario from usuarios where email='"+usuario.getEmail()+"' and password ='"+usuario.getPassword()+"';", null);
+
+        if (null != cursor) {
+            cursor.moveToFirst();
+
+            try{
+                tmpIdUser = cursor.getInt(0);
+            }
+            catch (NullPointerException | IndexOutOfBoundsException e) {
+                e.printStackTrace();
+            }
+        }
+
+        cursor.close();
+        closeDatabase();
+
+            if( tmpIdUser > 0){
+                return true;
+            }
+
+        return false;
     }
 
 }
