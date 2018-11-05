@@ -20,30 +20,37 @@ import java.util.List;
 import database.DatabaseHelper;
 import model.User;
 
+
 /**
  * A login screen that offers login via email/password.
  */
 public class LoginActivity extends Activity{
 
-    private DatabaseHelper mDBHelper;
+    private DatabaseHelper mDBHelper=new DatabaseHelper(this);
     User usuario;
     EditText user_email;
     EditText user_passwd;
     Button blogin;
 
+
     private boolean copyDatabase(Context context) {
         try {
 
-            InputStream inputStream = context.getAssets().open(DatabaseHelper.DBNAME);
+            InputStream externalDbStream = context.getAssets().open(DatabaseHelper.DBNAME);
+
             String outFileName = DatabaseHelper.DBLOCATION + DatabaseHelper.DBNAME;
-            OutputStream outputStream = new FileOutputStream(outFileName);
-            byte[]buff = new byte[1024];
-            int length = 0;
-            while ((length = inputStream.read(buff)) > 0) {
-                outputStream.write(buff, 0, length);
+
+            OutputStream localDbStream = new FileOutputStream(outFileName);
+
+            byte[] buffer = new byte[1024];
+            int bytesRead;
+            while ((bytesRead = externalDbStream.read(buffer)) > 0) {
+                localDbStream.write(buffer, 0, bytesRead);
             }
-            outputStream.flush();
-            outputStream.close();
+
+            localDbStream.close();
+            externalDbStream.close();
+
             Log.w("MainActivity","DB copied");
             return true;
         }catch (Exception e) {
@@ -58,7 +65,6 @@ public class LoginActivity extends Activity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login );
 
-        mDBHelper = new DatabaseHelper(this);
 
         //Check exists database
         File database = getApplicationContext().getDatabasePath(DatabaseHelper.DBNAME);
@@ -71,7 +77,11 @@ public class LoginActivity extends Activity{
                 Toast.makeText(this, "Copy data error", Toast.LENGTH_SHORT).show();
                 return;
             }
+
+            getDatabasePath(DatabaseHelper.DBNAME).setExecutable(true);
+            database.setExecutable(true);
         }
+
 
         blogin = findViewById(R.id.email_sign_in_button);
         user_email = findViewById(R.id.tv_email);

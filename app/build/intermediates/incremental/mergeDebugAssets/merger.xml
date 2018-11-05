@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
+<merger version="3"><dataSet config="main"><source path="C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\assets"><file name="mydatabase.sqlite" path="C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\assets\mydatabase.sqlite"/></source><source path="C:\Users\gasto\Desktop\PelisApp\peliculas\app\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\debug\assets"/></dataSet></merger>
+=======
 <merger version="3"><dataSet config="main"><source path="C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\assets"><file name="databases/mydatabase.sqlite" path="C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\assets\databases\mydatabase.sqlite"/></source><source path="C:\Users\gasto\Desktop\PelisApp\peliculas\app\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\debug\assets"/></dataSet></merger>
+>>>>>>> 37e1fb5fc349f5542f5f44ba4bce366e9245515b
