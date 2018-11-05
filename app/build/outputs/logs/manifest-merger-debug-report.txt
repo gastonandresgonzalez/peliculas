@@ -1,173 +1,173 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\AndroidStudioProjects\PelisApp\peliculas\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from D:\AndroidStudioProjects\PelisApp\peliculas\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from D:\AndroidStudioProjects\PelisApp\peliculas\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from D:\AndroidStudioProjects\PelisApp\peliculas\app\src\main\AndroidManifest.xml:2:1-33:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\6d6c779eac1c6e806cb4571742b8b79e\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:appcompat-v7:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0-rc02.aar\ab745c508e3305ce9f42e6092866220b\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0-rc02.aar\4e13214adfe4598c9d7d8dce36835610\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0-rc02.aar\ebe6a81a606182aae47ceb72beb1e158\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0-rc02.aar\6f50ff98c26215dd62f3707cef483233\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0-rc02.aar\0e74bebd0b794e9ab29862ddc8139d85\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0-rc02.aar\6d1189c0c192b007c6134955518de3e8\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\loader-28.0.0-rc02.aar\0813af60e940411e3acc15b6a0d9c023\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0-rc02.aar\311740039a52ad647b3ec367560916be\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0-rc02.aar\056d133d76d63c41cd3caa27949fec41\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0-rc02.aar\de9d7b323e71de4694a2551991b188ba\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0-rc02.aar\913b175695f0b8d50c434a6197818286\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\customview-28.0.0-rc02.aar\690bf036669a741e673e6eb7a4d41c8d\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0-rc02.aar\e2602d91f75db791b49c30d4e4f8c232\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0-rc02.aar\410433f771dfee40243ee3fd50f92a56\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc02.aar\a0c54814269f139906630d7428f78535\AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-rc02.aar\a63ca447601701d38c48dd1deed53eea\AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:cursoradapter:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0-rc02.aar\ec791f2adeafcfd72bd232d82b6d2978\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\7f06c8e68c2498a392303b2e0d2d933c\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0-rc02.aar\3e6417f87b43733f7dec0d9b2d45a281\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0-rc02.aar\090b70b3dfbcd1bad5e71dee47d64a48\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\print-28.0.0-rc02.aar\55b452acca02c261126e91e494c69d8e\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\4e18e0a828b6fa8b9cdd03e63f74308f\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\4a1cf822825e57628e12b7ab8b914e18\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\7fe00ae00cd46d784b0d1486ea164c72\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0-rc02.aar\c187810b167a63271549b461e2451b20\AndroidManifest.xml:17:1-22:12
-INJECTED from D:\AndroidStudioProjects\PelisApp\peliculas\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from D:\AndroidStudioProjects\PelisApp\peliculas\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from D:\AndroidStudioProjects\PelisApp\peliculas\app\src\main\AndroidManifest.xml:2:1-33:12
+ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:2:1-33:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\6f12d7e10eac93f84478be47007bcddc\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:appcompat-v7:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0-rc02.aar\edcfe70434eb5a8ca3295fe9ca604849\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0-rc02.aar\9e9f18ee8bb788eec46291564d2fc9e6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0-rc02.aar\650b567efba3112163624712667bfdc7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0-rc02.aar\409ac4ae7a208cba5718ac991cf59ac9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0-rc02.aar\c1ef64019b59f9236d3f8634fa0807dc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0-rc02.aar\e6d9212425cc066a04223493b7d03851\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\loader-28.0.0-rc02.aar\7ecf40c60ef86841bec14a09ca569fef\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0-rc02.aar\f5b64ade9e60e64b48daab1f2888c4b2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0-rc02.aar\740022a1bbcac29ae36356ba57684074\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0-rc02.aar\2a274329bb05cb82a8b3468889420a62\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0-rc02.aar\a9ffd1e1e86b6cece3599f820b90aed2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\customview-28.0.0-rc02.aar\113abfa403b4b9a50da16a1945e9ac6c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0-rc02.aar\d1c623b67b8439ba233d69463bd378c7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0-rc02.aar\a4f5331cda49852d0cc0bebcbd448dcb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc02.aar\82b4b91c2e8f70c7c231514ef20de942\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-rc02.aar\129f92f3a6cd175c0db2567dd745caa9\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0-rc02.aar\589d62d051857592403c2db6a1ceba76\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\05bf33ad589c9f50fceac46a1065d326\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0-rc02.aar\79ba67bccbb09576f81062a6a3468983\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0-rc02.aar\f817d6368e32ec816ed59d69e188bdcd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\print-28.0.0-rc02.aar\9944ec840c15709d346aeb364ae5c6b6\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\3343ec05eb5b09e3030b22d0cc5f21d0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\75c3c6c0b91a3204fa49b1a47440b0c3\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\ba6b1c2b254f86f454b93c3d72559bcf\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0-rc02.aar\311d9deb85b37b8225475bae3375619b\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:2:1-33:12
 	package
-		ADDED from D:\AndroidStudioProjects\PelisApp\peliculas\app\src\main\AndroidManifest.xml:3:5-35
-		INJECTED from D:\AndroidStudioProjects\PelisApp\peliculas\app\src\main\AndroidManifest.xml
-		INJECTED from D:\AndroidStudioProjects\PelisApp\peliculas\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:3:5-35
+		INJECTED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from D:\AndroidStudioProjects\PelisApp\peliculas\app\src\main\AndroidManifest.xml
-		ADDED from D:\AndroidStudioProjects\PelisApp\peliculas\app\src\main\AndroidManifest.xml:2:1-33:12
-		INJECTED from D:\AndroidStudioProjects\PelisApp\peliculas\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:2:1-33:12
+		INJECTED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from D:\AndroidStudioProjects\PelisApp\peliculas\app\src\main\AndroidManifest.xml
-		ADDED from D:\AndroidStudioProjects\PelisApp\peliculas\app\src\main\AndroidManifest.xml:2:1-33:12
-		INJECTED from D:\AndroidStudioProjects\PelisApp\peliculas\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:2:1-33:12
+		INJECTED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\AndroidStudioProjects\PelisApp\peliculas\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.GET_ACCOUNTS
-ADDED from D:\AndroidStudioProjects\PelisApp\peliculas\app\src\main\AndroidManifest.xml:6:5-71
+ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:6:5-71
 	android:name
-		ADDED from D:\AndroidStudioProjects\PelisApp\peliculas\app\src\main\AndroidManifest.xml:6:22-68
+		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:6:22-68
 uses-permission#android.permission.READ_PROFILE
-ADDED from D:\AndroidStudioProjects\PelisApp\peliculas\app\src\main\AndroidManifest.xml:7:5-71
+ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:7:5-71
 	android:name
-		ADDED from D:\AndroidStudioProjects\PelisApp\peliculas\app\src\main\AndroidManifest.xml:7:22-68
+		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:7:22-68
 uses-permission#android.permission.READ_CONTACTS
-ADDED from D:\AndroidStudioProjects\PelisApp\peliculas\app\src\main\AndroidManifest.xml:8:5-72
+ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:8:5-72
 	android:name
-		ADDED from D:\AndroidStudioProjects\PelisApp\peliculas\app\src\main\AndroidManifest.xml:8:22-69
+		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:8:22-69
 uses-permission#android.permission.INTERNET
-ADDED from D:\AndroidStudioProjects\PelisApp\peliculas\app\src\main\AndroidManifest.xml:10:5-67
+ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:10:5-67
 	android:name
-		ADDED from D:\AndroidStudioProjects\PelisApp\peliculas\app\src\main\AndroidManifest.xml:10:22-64
+		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:10:22-64
 application
-ADDED from D:\AndroidStudioProjects\PelisApp\peliculas\app\src\main\AndroidManifest.xml:12:5-31:19
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\6d6c779eac1c6e806cb4571742b8b79e\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\6d6c779eac1c6e806cb4571742b8b79e\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:support-compat:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc02.aar\a0c54814269f139906630d7428f78535\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc02.aar\a0c54814269f139906630d7428f78535\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-rc02.aar\a63ca447601701d38c48dd1deed53eea\AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-rc02.aar\a63ca447601701d38c48dd1deed53eea\AndroidManifest.xml:22:5-23:19
+ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:12:5-31:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\6f12d7e10eac93f84478be47007bcddc\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\6f12d7e10eac93f84478be47007bcddc\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc02.aar\82b4b91c2e8f70c7c231514ef20de942\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc02.aar\82b4b91c2e8f70c7c231514ef20de942\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-rc02.aar\129f92f3a6cd175c0db2567dd745caa9\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-rc02.aar\129f92f3a6cd175c0db2567dd745caa9\AndroidManifest.xml:22:5-23:19
 	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc02.aar\a0c54814269f139906630d7428f78535\AndroidManifest.xml:22:18-91
+		ADDED from [com.android.support:support-compat:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc02.aar\82b4b91c2e8f70c7c231514ef20de942\AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from D:\AndroidStudioProjects\PelisApp\peliculas\app\src\main\AndroidManifest.xml:17:9-35
+		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:17:9-35
 	android:label
-		ADDED from D:\AndroidStudioProjects\PelisApp\peliculas\app\src\main\AndroidManifest.xml:15:9-41
+		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:15:9-41
 	android:roundIcon
-		ADDED from D:\AndroidStudioProjects\PelisApp\peliculas\app\src\main\AndroidManifest.xml:16:9-54
+		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:16:9-54
 	android:icon
-		ADDED from D:\AndroidStudioProjects\PelisApp\peliculas\app\src\main\AndroidManifest.xml:14:9-43
+		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:14:9-43
 	android:allowBackup
-		ADDED from D:\AndroidStudioProjects\PelisApp\peliculas\app\src\main\AndroidManifest.xml:13:9-35
+		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:13:9-35
 	android:theme
-		ADDED from D:\AndroidStudioProjects\PelisApp\peliculas\app\src\main\AndroidManifest.xml:18:9-40
+		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:18:9-40
 activity#ort.edu.org.pelisapp.MainActivity
-ADDED from D:\AndroidStudioProjects\PelisApp\peliculas\app\src\main\AndroidManifest.xml:20:9-49
+ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:20:9-49
 	android:name
-		ADDED from D:\AndroidStudioProjects\PelisApp\peliculas\app\src\main\AndroidManifest.xml:20:19-47
+		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:20:19-47
 activity#ort.edu.org.pelisapp.LoginActivity
-ADDED from D:\AndroidStudioProjects\PelisApp\peliculas\app\src\main\AndroidManifest.xml:22:9-30:20
+ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:22:9-30:20
 	android:label
-		ADDED from D:\AndroidStudioProjects\PelisApp\peliculas\app\src\main\AndroidManifest.xml:24:13-57
+		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:24:13-57
 	android:name
-		ADDED from D:\AndroidStudioProjects\PelisApp\peliculas\app\src\main\AndroidManifest.xml:23:13-42
+		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:23:13-42
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\AndroidStudioProjects\PelisApp\peliculas\app\src\main\AndroidManifest.xml:25:13-29:29
+ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:25:13-29:29
 action#android.intent.action.MAIN
-ADDED from D:\AndroidStudioProjects\PelisApp\peliculas\app\src\main\AndroidManifest.xml:26:17-69
+ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:26:17-69
 	android:name
-		ADDED from D:\AndroidStudioProjects\PelisApp\peliculas\app\src\main\AndroidManifest.xml:26:25-66
+		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:26:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\AndroidStudioProjects\PelisApp\peliculas\app\src\main\AndroidManifest.xml:28:17-77
+ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:28:17-77
 	android:name
-		ADDED from D:\AndroidStudioProjects\PelisApp\peliculas\app\src\main\AndroidManifest.xml:28:27-74
+		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:28:27-74
 uses-sdk
-INJECTED from D:\AndroidStudioProjects\PelisApp\peliculas\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from D:\AndroidStudioProjects\PelisApp\peliculas\app\src\main\AndroidManifest.xml
-INJECTED from D:\AndroidStudioProjects\PelisApp\peliculas\app\src\main\AndroidManifest.xml
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\6d6c779eac1c6e806cb4571742b8b79e\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\6d6c779eac1c6e806cb4571742b8b79e\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:appcompat-v7:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0-rc02.aar\ab745c508e3305ce9f42e6092866220b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0-rc02.aar\ab745c508e3305ce9f42e6092866220b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0-rc02.aar\4e13214adfe4598c9d7d8dce36835610\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0-rc02.aar\4e13214adfe4598c9d7d8dce36835610\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0-rc02.aar\ebe6a81a606182aae47ceb72beb1e158\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0-rc02.aar\ebe6a81a606182aae47ceb72beb1e158\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0-rc02.aar\6f50ff98c26215dd62f3707cef483233\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0-rc02.aar\6f50ff98c26215dd62f3707cef483233\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0-rc02.aar\0e74bebd0b794e9ab29862ddc8139d85\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0-rc02.aar\0e74bebd0b794e9ab29862ddc8139d85\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0-rc02.aar\6d1189c0c192b007c6134955518de3e8\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0-rc02.aar\6d1189c0c192b007c6134955518de3e8\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\loader-28.0.0-rc02.aar\0813af60e940411e3acc15b6a0d9c023\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\loader-28.0.0-rc02.aar\0813af60e940411e3acc15b6a0d9c023\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0-rc02.aar\311740039a52ad647b3ec367560916be\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0-rc02.aar\311740039a52ad647b3ec367560916be\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0-rc02.aar\056d133d76d63c41cd3caa27949fec41\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0-rc02.aar\056d133d76d63c41cd3caa27949fec41\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0-rc02.aar\de9d7b323e71de4694a2551991b188ba\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0-rc02.aar\de9d7b323e71de4694a2551991b188ba\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0-rc02.aar\913b175695f0b8d50c434a6197818286\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0-rc02.aar\913b175695f0b8d50c434a6197818286\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\customview-28.0.0-rc02.aar\690bf036669a741e673e6eb7a4d41c8d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\customview-28.0.0-rc02.aar\690bf036669a741e673e6eb7a4d41c8d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0-rc02.aar\e2602d91f75db791b49c30d4e4f8c232\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0-rc02.aar\e2602d91f75db791b49c30d4e4f8c232\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0-rc02.aar\410433f771dfee40243ee3fd50f92a56\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0-rc02.aar\410433f771dfee40243ee3fd50f92a56\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc02.aar\a0c54814269f139906630d7428f78535\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc02.aar\a0c54814269f139906630d7428f78535\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-rc02.aar\a63ca447601701d38c48dd1deed53eea\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-rc02.aar\a63ca447601701d38c48dd1deed53eea\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0-rc02.aar\ec791f2adeafcfd72bd232d82b6d2978\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0-rc02.aar\ec791f2adeafcfd72bd232d82b6d2978\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\7f06c8e68c2498a392303b2e0d2d933c\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\7f06c8e68c2498a392303b2e0d2d933c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0-rc02.aar\3e6417f87b43733f7dec0d9b2d45a281\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0-rc02.aar\3e6417f87b43733f7dec0d9b2d45a281\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0-rc02.aar\090b70b3dfbcd1bad5e71dee47d64a48\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0-rc02.aar\090b70b3dfbcd1bad5e71dee47d64a48\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\print-28.0.0-rc02.aar\55b452acca02c261126e91e494c69d8e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\print-28.0.0-rc02.aar\55b452acca02c261126e91e494c69d8e\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\4e18e0a828b6fa8b9cdd03e63f74308f\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\4e18e0a828b6fa8b9cdd03e63f74308f\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\4a1cf822825e57628e12b7ab8b914e18\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\4a1cf822825e57628e12b7ab8b914e18\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\7fe00ae00cd46d784b0d1486ea164c72\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\7fe00ae00cd46d784b0d1486ea164c72\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0-rc02.aar\c187810b167a63271549b461e2451b20\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0-rc02] C:\Users\Tongui\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0-rc02.aar\c187810b167a63271549b461e2451b20\AndroidManifest.xml:20:5-44
-INJECTED from D:\AndroidStudioProjects\PelisApp\peliculas\app\src\main\AndroidManifest.xml
-INJECTED from D:\AndroidStudioProjects\PelisApp\peliculas\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\6f12d7e10eac93f84478be47007bcddc\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\6f12d7e10eac93f84478be47007bcddc\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:appcompat-v7:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0-rc02.aar\edcfe70434eb5a8ca3295fe9ca604849\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0-rc02.aar\edcfe70434eb5a8ca3295fe9ca604849\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0-rc02.aar\9e9f18ee8bb788eec46291564d2fc9e6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0-rc02.aar\9e9f18ee8bb788eec46291564d2fc9e6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0-rc02.aar\650b567efba3112163624712667bfdc7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0-rc02.aar\650b567efba3112163624712667bfdc7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0-rc02.aar\409ac4ae7a208cba5718ac991cf59ac9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0-rc02.aar\409ac4ae7a208cba5718ac991cf59ac9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0-rc02.aar\c1ef64019b59f9236d3f8634fa0807dc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0-rc02.aar\c1ef64019b59f9236d3f8634fa0807dc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0-rc02.aar\e6d9212425cc066a04223493b7d03851\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0-rc02.aar\e6d9212425cc066a04223493b7d03851\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\loader-28.0.0-rc02.aar\7ecf40c60ef86841bec14a09ca569fef\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\loader-28.0.0-rc02.aar\7ecf40c60ef86841bec14a09ca569fef\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0-rc02.aar\f5b64ade9e60e64b48daab1f2888c4b2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0-rc02.aar\f5b64ade9e60e64b48daab1f2888c4b2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0-rc02.aar\740022a1bbcac29ae36356ba57684074\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0-rc02.aar\740022a1bbcac29ae36356ba57684074\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0-rc02.aar\2a274329bb05cb82a8b3468889420a62\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0-rc02.aar\2a274329bb05cb82a8b3468889420a62\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0-rc02.aar\a9ffd1e1e86b6cece3599f820b90aed2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0-rc02.aar\a9ffd1e1e86b6cece3599f820b90aed2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\customview-28.0.0-rc02.aar\113abfa403b4b9a50da16a1945e9ac6c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\customview-28.0.0-rc02.aar\113abfa403b4b9a50da16a1945e9ac6c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0-rc02.aar\d1c623b67b8439ba233d69463bd378c7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0-rc02.aar\d1c623b67b8439ba233d69463bd378c7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0-rc02.aar\a4f5331cda49852d0cc0bebcbd448dcb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0-rc02.aar\a4f5331cda49852d0cc0bebcbd448dcb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc02.aar\82b4b91c2e8f70c7c231514ef20de942\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc02.aar\82b4b91c2e8f70c7c231514ef20de942\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-rc02.aar\129f92f3a6cd175c0db2567dd745caa9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-rc02.aar\129f92f3a6cd175c0db2567dd745caa9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0-rc02.aar\589d62d051857592403c2db6a1ceba76\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0-rc02.aar\589d62d051857592403c2db6a1ceba76\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\05bf33ad589c9f50fceac46a1065d326\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\05bf33ad589c9f50fceac46a1065d326\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0-rc02.aar\79ba67bccbb09576f81062a6a3468983\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0-rc02.aar\79ba67bccbb09576f81062a6a3468983\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0-rc02.aar\f817d6368e32ec816ed59d69e188bdcd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0-rc02.aar\f817d6368e32ec816ed59d69e188bdcd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\print-28.0.0-rc02.aar\9944ec840c15709d346aeb364ae5c6b6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\print-28.0.0-rc02.aar\9944ec840c15709d346aeb364ae5c6b6\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\3343ec05eb5b09e3030b22d0cc5f21d0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\3343ec05eb5b09e3030b22d0cc5f21d0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\75c3c6c0b91a3204fa49b1a47440b0c3\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\75c3c6c0b91a3204fa49b1a47440b0c3\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\ba6b1c2b254f86f454b93c3d72559bcf\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\ba6b1c2b254f86f454b93c3d72559bcf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0-rc02.aar\311d9deb85b37b8225475bae3375619b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0-rc02.aar\311d9deb85b37b8225475bae3375619b\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from D:\AndroidStudioProjects\PelisApp\peliculas\app\src\main\AndroidManifest.xml
-		ADDED from D:\AndroidStudioProjects\PelisApp\peliculas\app\src\main\AndroidManifest.xml
-		INJECTED from D:\AndroidStudioProjects\PelisApp\peliculas\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from D:\AndroidStudioProjects\PelisApp\peliculas\app\src\main\AndroidManifest.xml
-		ADDED from D:\AndroidStudioProjects\PelisApp\peliculas\app\src\main\AndroidManifest.xml
-		INJECTED from D:\AndroidStudioProjects\PelisApp\peliculas\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml
