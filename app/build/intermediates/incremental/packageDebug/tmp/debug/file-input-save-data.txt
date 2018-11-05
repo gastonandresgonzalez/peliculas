@@ -1,5 +1,9 @@
 #Internal package file, do not edit.
+<<<<<<< HEAD
 #Mon Nov 05 15:46:55 ART 2018
+=======
+#Mon Nov 05 14:46:31 ART 2018
+>>>>>>> 37e1fb5fc349f5542f5f44ba4bce366e9245515b
 1.base=C\:\\Users\\gasto\\Desktop\\PelisApp\\peliculas\\app\\build\\intermediates\\assets\\debug
 0.baseType=DIRECTORY
 1.baseType=DIRECTORY
@@ -8,4 +12,8 @@ count=2
 0.path=classes.dex
 0.set=DEX
 0.base=C\:\\Users\\gasto\\Desktop\\PelisApp\\peliculas\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+<<<<<<< HEAD
 1.path=mydatabase.sqlite
+=======
+1.path=databases/mydatabase.sqlite
+>>>>>>> 37e1fb5fc349f5542f5f44ba4bce366e9245515b
