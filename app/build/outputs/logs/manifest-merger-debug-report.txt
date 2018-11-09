@@ -1,9 +1,22 @@
 -- Merging decision tree log ---
 manifest
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
 ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:2:1-36:12
 INJECTED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:2:1-36:12
 INJECTED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:2:1-36:12
 INJECTED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:2:1-36:12
+<<<<<<< HEAD
+=======
+=======
+ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:2:1-33:12
+>>>>>>> 37e1fb5fc349f5542f5f44ba4bce366e9245515b
+>>>>>>> master
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\6f12d7e10eac93f84478be47007bcddc\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:appcompat-v7:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0-rc02.aar\edcfe70434eb5a8ca3295fe9ca604849\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-fragment:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0-rc02.aar\9e9f18ee8bb788eec46291564d2fc9e6\AndroidManifest.xml:17:1-22:12
@@ -30,15 +43,31 @@ MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\gasto\.gradle\cach
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\75c3c6c0b91a3204fa49b1a47440b0c3\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\ba6b1c2b254f86f454b93c3d72559bcf\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:interpolator:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0-rc02.aar\311d9deb85b37b8225475bae3375619b\AndroidManifest.xml:17:1-22:12
+<<<<<<< HEAD
 INJECTED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:2:1-36:12
 INJECTED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:2:1-36:12
 INJECTED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:2:1-36:12
+=======
+<<<<<<< HEAD
+INJECTED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:2:1-36:12
+=======
+INJECTED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:2:1-33:12
+>>>>>>> 37e1fb5fc349f5542f5f44ba4bce366e9245515b
+>>>>>>> master
 	package
 		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:3:5-35
 		INJECTED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
 		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:2:1-36:12
 		INJECTED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml
 	android:versionCode
@@ -47,6 +76,7 @@ INJECTED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidMani
 		INJECTED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:2:11-69
+<<<<<<< HEAD
 uses-permission#android.permission.READ_PROFILE
 ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:8:5-71
 	android:name
@@ -69,6 +99,58 @@ ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifes
 		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:13:22-64
 application
 ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:15:5-34:19
+=======
+uses-permission#android.permission.READ_PROFILE
+ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:8:5-71
+	android:name
+		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:8:22-68
+uses-permission#android.permission.READ_CONTACTS
+ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:9:5-72
+	android:name
+		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:9:22-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:10:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:11:22-77
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:13:5-67
+	android:name
+		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:13:22-64
+application
+ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:15:5-34:19
+=======
+		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:2:1-33:12
+		INJECTED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:2:1-33:12
+		INJECTED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:6:5-71
+	android:name
+		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:6:22-68
+uses-permission#android.permission.READ_PROFILE
+ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:7:5-71
+	android:name
+		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:7:22-68
+uses-permission#android.permission.READ_CONTACTS
+ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:8:5-72
+	android:name
+		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:8:22-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:10:22-64
+application
+ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:12:5-31:19
+>>>>>>> 37e1fb5fc349f5542f5f44ba4bce366e9245515b
+>>>>>>> master
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\6f12d7e10eac93f84478be47007bcddc\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\6f12d7e10eac93f84478be47007bcddc\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:support-compat:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc02.aar\82b4b91c2e8f70c7c231514ef20de942\AndroidManifest.xml:22:5-94
@@ -78,6 +160,7 @@ MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] C:\Users\gasto
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0-rc02] C:\Users\gasto\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc02.aar\82b4b91c2e8f70c7c231514ef20de942\AndroidManifest.xml:22:18-91
 	android:supportsRtl
+<<<<<<< HEAD
 		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:20:9-35
 	android:label
 		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:18:9-41
@@ -109,6 +192,73 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:31:17-77
 	android:name
 		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:31:27-74
+=======
+<<<<<<< HEAD
+		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:20:9-35
+	android:label
+		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:18:9-41
+	android:roundIcon
+		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:19:9-54
+	android:icon
+		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:17:9-43
+	android:allowBackup
+		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:16:9-35
+	android:theme
+		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:21:9-40
+activity#ort.edu.org.pelisapp.MainActivity
+ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:23:9-49
+	android:name
+		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:23:19-47
+activity#ort.edu.org.pelisapp.LoginActivity
+ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:25:9-33:20
+	android:label
+		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:27:13-57
+	android:name
+		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:26:13-42
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:28:13-32:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:29:17-69
+	android:name
+		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:29:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:31:17-77
+	android:name
+		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:31:27-74
+=======
+		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:17:9-35
+	android:label
+		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:15:9-41
+	android:roundIcon
+		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:16:9-54
+	android:icon
+		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:14:9-43
+	android:allowBackup
+		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:13:9-35
+	android:theme
+		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:18:9-40
+activity#ort.edu.org.pelisapp.MainActivity
+ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:20:9-49
+	android:name
+		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:20:19-47
+activity#ort.edu.org.pelisapp.LoginActivity
+ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:22:9-30:20
+	android:label
+		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:24:13-57
+	android:name
+		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:23:13-42
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:25:13-29:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:28:17-77
+	android:name
+		ADDED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml:28:27-74
+>>>>>>> 37e1fb5fc349f5542f5f44ba4bce366e9245515b
+>>>>>>> master
 uses-sdk
 INJECTED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\gasto\Desktop\PelisApp\peliculas\app\src\main\AndroidManifest.xml

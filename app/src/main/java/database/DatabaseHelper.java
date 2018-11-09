@@ -5,7 +5,10 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+<<<<<<< HEAD
 import android.widget.Toast;
+=======
+>>>>>>> master
 
 import java.io.File;
 import java.util.ArrayList;
