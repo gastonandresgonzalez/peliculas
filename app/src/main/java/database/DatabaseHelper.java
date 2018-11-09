@@ -5,6 +5,9 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.widget.Toast;
+
+import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 import model.DetallePeliculas;
@@ -17,7 +20,7 @@ import model.User;
 public class DatabaseHelper extends SQLiteOpenHelper {
     public static final String DBNAME = "mydatabase.sqlite";
 
-    public static final String DBLOCATION = "databases/";
+    public static final String DBLOCATION = "/data/data/ort.edu.org.pelisapp/databases/";
     private Context mContext;
     private SQLiteDatabase mDatabase;
 
@@ -29,6 +32,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase db) {
 
+
     }
 
     @Override
@@ -37,11 +41,13 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     }
 
     public void openDatabase() {
-        String dbPath = mContext.getDatabasePath(DBNAME).getPath();
+        String dbPath = DBLOCATION + DBNAME;
         if(mDatabase != null && mDatabase.isOpen()) {
-            return;
+            return ;
         }
-        mDatabase = SQLiteDatabase.openDatabase(dbPath, null, SQLiteDatabase.OPEN_READWRITE);
+        mDatabase = SQLiteDatabase.openDatabase(dbPath, null, SQLiteDatabase.OPEN_READWRITE
+                 );
+
     }
 
     public void closeDatabase() {
@@ -93,7 +99,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         return listaPeliculas;
     }
 
-    public boolean checkUser(User usuario){
+    public boolean checkUser(User usuario) throws IndexOutOfBoundsException,NullPointerException{
 
         int tmpIdUser=0;
 
@@ -104,12 +110,9 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         if (null != cursor) {
             cursor.moveToFirst();
 
-            try{
+
                 tmpIdUser = cursor.getInt(0);
-            }
-            catch (NullPointerException | IndexOutOfBoundsException e) {
-                e.printStackTrace();
-            }
+
         }
 
         cursor.close();
