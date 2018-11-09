@@ -1,8 +1,0 @@
-<<<<<<< HEAD
-#Mon Nov 05 15:46:55 ART 2018
-=======
-#Mon Nov 05 14:46:31 ART 2018
->>>>>>> 37e1fb5fc349f5542f5f44ba4bce366e9245515b
-base.0=C\:\\Users\\gasto\\Desktop\\PelisApp\\peliculas\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
-path.0=classes.dex
-renamed.0=classes.dex

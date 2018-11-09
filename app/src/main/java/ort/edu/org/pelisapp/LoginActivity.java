@@ -95,13 +95,17 @@ public class LoginActivity extends Activity{
 
                 usuario = new User(user_email.getText().toString(), user_passwd.getText().toString());
 
-                if (mDBHelper.checkUser(usuario)) {
-                    Intent i = new Intent(getApplicationContext(), MainActivity.class);
-                    startActivity(i);
-                } else {
-                    Toast.makeText(LoginActivity.this, "Wrong Login", Toast.LENGTH_SHORT).show();
+             try {
+                 if (mDBHelper.checkUser(usuario)) {
+                     Intent i = new Intent(getApplicationContext(), MainActivity.class);
+                     startActivity(i);
+                 } else {
+                     Toast.makeText(LoginActivity.this, "Wrong Login", Toast.LENGTH_SHORT).show();
+                 }
+             }
+                catch(IndexOutOfBoundsException error){
+                        Toast.makeText(LoginActivity.this, "Wrong Login", Toast.LENGTH_SHORT).show();
                 }
-
             }
         });
 

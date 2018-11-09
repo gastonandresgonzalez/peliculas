@@ -5,6 +5,7 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.widget.Toast;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -98,7 +99,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         return listaPeliculas;
     }
 
-    public boolean checkUser(User usuario){
+    public boolean checkUser(User usuario) throws IndexOutOfBoundsException,NullPointerException{
 
         int tmpIdUser=0;
 
@@ -109,12 +110,9 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         if (null != cursor) {
             cursor.moveToFirst();
 
-            try{
+
                 tmpIdUser = cursor.getInt(0);
-            }
-            catch (NullPointerException | IndexOutOfBoundsException e) {
-                e.printStackTrace();
-            }
+
         }
 
         cursor.close();
