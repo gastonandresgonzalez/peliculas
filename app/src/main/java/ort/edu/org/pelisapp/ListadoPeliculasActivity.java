@@ -2,6 +2,7 @@ package ort.edu.org.pelisapp;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.AsyncTask;
@@ -34,22 +35,11 @@ public class ListadoPeliculasActivity extends Activity {
         setContentView(R.layout.activity_main );
         listPelis = (ListView)findViewById(R.id.listViewPeliculas );
         mDBHelper = new DatabaseHelper(this);
+        mDBHelper.getReadableDatabase();
 
-        //Check exists database
-        File database = getApplicationContext().getDatabasePath(DatabaseHelper.DBNAME);
-        if(false == database.exists()) {
-            mDBHelper.getReadableDatabase();
-            //Copy db
-            if(copyDatabase(this)) {
-                Toast.makeText(this, "Copy database succes", Toast.LENGTH_SHORT).show();
-            } else {
-                Toast.makeText(this, "Copy data error", Toast.LENGTH_SHORT).show();
-                return;
-            }
-        }
+        Integer datoPeli = getIntent().getIntExtra("id",-1);
 
-
-        mPeliculaDetalle=mDBHelper.getListadoPeliculas();
+        mPeliculaDetalle=mDBHelper.getListadoPeliculas(datoPeli);
         adapter = new ListadoPeliculasAdapter(this, mPeliculaDetalle);
         listPelis.setAdapter(adapter);
 

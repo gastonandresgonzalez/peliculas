@@ -78,13 +78,13 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         return listaPeliculas;
     }
 
-    public List<ListadoPeliculas> getListadoPeliculas() {
+    public List<ListadoPeliculas> getListadoPeliculas(Integer idPeli) {
 
         ListadoPeliculas DetPelicula = null;
         List<ListadoPeliculas> listaPeliculas = new ArrayList<>();
         openDatabase();
 
-        Cursor cursor = mDatabase.rawQuery("select peliculas.idpelicula,peliculas.titulo,peliculas.anio from peliculas inner join generos on(peliculas.idgenero=generos.idgenero) inner join directores on(peliculas.iddirector=directores.iddirector)", null);
+        Cursor cursor = mDatabase.rawQuery("select peliculas.idpelicula,peliculas.titulo,peliculas.anio from peliculas inner join generos on(peliculas.idgenero=generos.idgenero) inner join directores on(peliculas.iddirector=directores.iddirector) where idpelicula ='"+idPeli+"';", null);
 
         cursor.moveToFirst();
         while (!cursor.isAfterLast()) {
