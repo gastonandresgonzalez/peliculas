@@ -50,7 +50,9 @@ public class ListPeliculasAdapter extends BaseAdapter {
         Bitmap mPeliFoto = null;
         URL newurl = null;
 
+        // genero la vista con el adapter
         View v= View.inflate(mContext, R.layout.item_peliculas , null );
+
         TextView tv_pelicula_id = v.findViewById(R.id.tv_pelicula_id  );
         TextView tv_pelicula_titulo = v.findViewById(R.id.tv_pelicula_titulo  );
         TextView tv_pelicula_anio = v.findViewById(R.id.tv_pelicula_anio  );
@@ -64,7 +66,6 @@ public class ListPeliculasAdapter extends BaseAdapter {
         tv_pelicula_id.setText(String.valueOf(mPeliculaList.get(position).getId ()));
         tv_pelicula_titulo.setText(String.valueOf(mPeliculaList.get(position).getTitulo()));
         tv_pelicula_anio.setText(String.valueOf(mPeliculaList.get(position).getAnio ()));
-        //tv_pelicula_url.setText(String.valueOf(mPeliculaList.get(position).getUrl()));
 
         try {
             newurl = new URL(String.valueOf(mPeliculaList.get(position).getUrl ()));
@@ -89,6 +90,8 @@ public class ListPeliculasAdapter extends BaseAdapter {
             e.printStackTrace();
         }
 
+
+        //aca le asigno un valor a los campos del activity
         tv_pelicula_url.setImageBitmap(mPeliFoto);
         tv_pelicula_descripcion.setText(String.valueOf(mPeliculaList.get(position).getDescripcion()));
         tv_pelicula_duracion.setText(String.valueOf(mPeliculaList.get(position).getDuracion()));

@@ -2,11 +2,14 @@ package ort.edu.org.pelisapp;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.Toast;
@@ -18,6 +21,7 @@ import java.io.OutputStream;
 import java.util.List;
 
 import adapter.ListPeliculasAdapter;
+import adapter.ListadoPeliculasAdapter;
 import database.DatabaseHelper;
 import model.DetallePeliculas;
 
@@ -31,16 +35,16 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main );
-        listPelis = (ListView)findViewById(R.id.listViewPeliculas );
+        setContentView(R.layout.activity_main);
+        listPelis = (ListView) findViewById(R.id.listViewPeliculas);
         mDBHelper = new DatabaseHelper(this);
 
         //Check exists database
         File database = getApplicationContext().getDatabasePath(DatabaseHelper.DBNAME);
-        if(false == database.exists()) {
+        if (false == database.exists()) {
             mDBHelper.getReadableDatabase();
             //Copy db
-            if(copyDatabase(this)) {
+            if (copyDatabase(this)) {
                 Toast.makeText(this, "Copy database succes", Toast.LENGTH_SHORT).show();
             } else {
                 Toast.makeText(this, "Copy data error", Toast.LENGTH_SHORT).show();
@@ -48,12 +52,29 @@ public class MainActivity extends Activity {
             }
         }
 
-        mPeliculaDetalle=mDBHelper.getDetallePeliculas();
+        mPeliculaDetalle = mDBHelper.getDetallePeliculas();
         adapter = new ListPeliculasAdapter(this, mPeliculaDetalle);
         listPelis.setAdapter(adapter);
 
+        listPelis.setOnItemClickListener(new AdapterView.OnItemClickListener () {
 
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
+                try {
+
+                    Intent i = new Intent(getApplicationContext(), ListadoPeliculasActivity.class);
+
+                    i.putExtra("id", (int) id);
+
+                    startActivity(i);
+
+                } catch (IndexOutOfBoundsException error) {
+                    Toast.makeText(MainActivity.this, "Error al abrir item", Toast.LENGTH_SHORT).show();
+                }
+            }
+
+        });
     }
 
     private boolean copyDatabase(Context context) {
@@ -77,7 +98,7 @@ public class MainActivity extends Activity {
         }
     }
 
-    public class DownloadImageTask extends AsyncTask<String, Void, Bitmap> {
+   public class DownloadImageTask extends AsyncTask<String, Void, Bitmap> {
         ImageView bmImage;
 
         public DownloadImageTask(ImageView bmImage) {
