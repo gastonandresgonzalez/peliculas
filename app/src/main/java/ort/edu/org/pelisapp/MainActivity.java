@@ -24,7 +24,6 @@ import adapter.ListPeliculasAdapter;
 import adapter.ListadoPeliculasAdapter;
 import database.DatabaseHelper;
 import model.DetallePeliculas;
-import model.ListadoPeliculas;
 
 public class MainActivity extends Activity {
     private ListView listPelis;

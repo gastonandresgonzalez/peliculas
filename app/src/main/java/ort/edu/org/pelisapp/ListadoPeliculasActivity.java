@@ -20,12 +20,12 @@ import java.util.List;
 
 import adapter.ListadoPeliculasAdapter;
 import database.DatabaseHelper;
-import model.ListadoPeliculas;
+import model.DetallePeliculas;
 
 public class ListadoPeliculasActivity extends Activity {
     private ListView listPelis;
     private ListadoPeliculasAdapter adapter;
-    private List<ListadoPeliculas> mPeliculaDetalle;
+    private List<DetallePeliculas> mPeliculaDetalle;
     private DatabaseHelper mDBHelper;
 
     @Override

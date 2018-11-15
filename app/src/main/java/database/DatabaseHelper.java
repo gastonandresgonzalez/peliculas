@@ -11,7 +11,6 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 import model.DetallePeliculas;
-import model.ListadoPeliculas;
 import model.User;
 
 /**
@@ -78,18 +77,18 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         return listaPeliculas;
     }
 
-    public List<ListadoPeliculas> getListadoPeliculas(Integer idPeli) {
+    public List<DetallePeliculas> getListadoPeliculas(Integer idPeli) {
 
-        ListadoPeliculas DetPelicula = null;
-        List<ListadoPeliculas> listaPeliculas = new ArrayList<>();
+        DetallePeliculas DetPelicula = null;
+        List<DetallePeliculas> listaPeliculas = new ArrayList<>();
         openDatabase();
 
-        Cursor cursor = mDatabase.rawQuery("select peliculas.idpelicula,peliculas.titulo,peliculas.anio from peliculas inner join generos on(peliculas.idgenero=generos.idgenero) inner join directores on(peliculas.iddirector=directores.iddirector) where idpelicula ='"+idPeli+"';", null);
+        Cursor cursor = mDatabase.rawQuery("select peliculas.idpelicula,peliculas.titulo,peliculas.anio,peliculas.url,peliculas.descripcion,peliculas.duracion,peliculas.rating,directores.nombre_director,generos.genero from peliculas inner join generos on(peliculas.idgenero=generos.idgenero) inner join directores on(peliculas.iddirector=directores.iddirector) where idpelicula ='"+idPeli+"';", null);
 
         cursor.moveToFirst();
         while (!cursor.isAfterLast()) {
 
-            DetPelicula = new ListadoPeliculas(cursor.getInt(0),cursor.getString (1),cursor.getInt(2));
+            DetPelicula = new DetallePeliculas(cursor.getInt(0),cursor.getString (1),cursor.getInt(2),cursor.getString(3),cursor.getString(4),cursor.getInt(5),cursor.getInt(6),cursor.getString(7),cursor.getString(8));
             listaPeliculas.add(DetPelicula);
             cursor.moveToNext();
 
