@@ -50,7 +50,7 @@
         android:layout_width="334dp"
         android:layout_height="128dp"
         android:layout_x="0dp"
-        android:layout_y="364dp"
+        android:layout_y="366dp"
         android:fontFamily="sans-serif-condensed"
         android:text="Descripcion"
         android:textColor="@color/colorPrimary"
@@ -170,5 +170,15 @@
         android:numStars="5"
         android:rating="2.0"
         android:stepSize="1.0" />
+
+    <Button
+        android:id="@+id/buttonRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="248dp"
+        android:layout_y="294dp"
+        android:text="Rate"
+        tools:layout_editor_absoluteX="248dp"
+        tools:layout_editor_absoluteY="295dp" />
 
 </AbsoluteLayout>
