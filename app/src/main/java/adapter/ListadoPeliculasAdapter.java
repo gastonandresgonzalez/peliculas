@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
+import android.widget.RatingBar;
 import android.widget.TextView;
 
 import java.io.IOException;
@@ -59,10 +60,11 @@ public class ListadoPeliculasAdapter extends BaseAdapter {
         ImageView tv_pelicula_url = v.findViewById(R.id.tv_pelicula_url  );
         TextView tv_pelicula_descripcion = v.findViewById(R.id.tv_pelicula_descripcion  );
         TextView tv_pelicula_duracion = v.findViewById(R.id.tv_pelicula_duracion  );
-        TextView tv_pelicula_rating = v.findViewById(R.id.tv_pelicula_rating  );
+        RatingBar tv_pelicula_rating = v.findViewById(R.id.ratingBarDetalle );
         TextView tv_pelicula_director = v.findViewById(R.id.tv_pelicula_director  );
         TextView tv_pelicula_genero = v.findViewById(R.id.tv_pelicula_genero  );
 
+        tv_pelicula_rating.setRating(Long.valueOf(mPeliculaList.get(position).getRating()));
         try {
             newurl = new URL(String.valueOf(mPeliculaList.get(position).getUrl ()));
         } catch (MalformedURLException e) {
@@ -94,7 +96,6 @@ public class ListadoPeliculasAdapter extends BaseAdapter {
         tv_pelicula_url.setImageBitmap(mPeliFoto);
         tv_pelicula_descripcion.setText(String.valueOf(mPeliculaList.get(position).getDescripcion()));
         tv_pelicula_duracion.setText(String.valueOf(mPeliculaList.get(position).getDuracion()));
-        tv_pelicula_rating.setText(String.valueOf(mPeliculaList.get(position).getRating()));
         tv_pelicula_director.setText(String.valueOf(mPeliculaList.get(position).getDirector()));
         tv_pelicula_genero.setText(String.valueOf(mPeliculaList.get(position).getGenero()));
 

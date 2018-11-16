@@ -49,8 +49,8 @@
         android:id="@+id/tv_pelicula_descripcion"
         android:layout_width="334dp"
         android:layout_height="128dp"
-        android:layout_x="1dp"
-        android:layout_y="326dp"
+        android:layout_x="0dp"
+        android:layout_y="364dp"
         android:fontFamily="sans-serif-condensed"
         android:text="Descripcion"
         android:textColor="@color/colorPrimary"
@@ -64,28 +64,6 @@
         android:layout_y="230dp"
         android:fontFamily="sans-serif-condensed"
         android:text="Duracion"
-        android:textColor="@color/colorPrimary"
-        android:textSize="18sp" />
-
-    <TextView
-        android:id="@+id/tv_pelicula_rating"
-        android:layout_width="wrap_content"
-        android:layout_height="40dp"
-        android:layout_x="52dp"
-        android:layout_y="284dp"
-        android:fontFamily="sans-serif-condensed"
-        android:text="Rating"
-        android:textColor="@color/colorPrimary"
-        android:textSize="18sp" />
-
-    <TextView
-        android:id="@+id/descripcion_rating"
-        android:layout_width="51dp"
-        android:layout_height="40dp"
-        android:layout_x="0dp"
-        android:layout_y="284dp"
-        android:fontFamily="sans-serif-condensed"
-        android:text="Rating"
         android:textColor="@color/colorPrimary"
         android:textSize="18sp" />
 
@@ -178,5 +156,19 @@
         android:textSize="18sp"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="101dp" />
+
+    <RatingBar
+        android:id="@+id/ratingBarDetalle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/place"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="64dp"
+        android:layout_x="0dp"
+        android:layout_y="295dp"
+        android:numStars="5"
+        android:rating="2.0"
+        android:stepSize="1.0" />
 
 </AbsoluteLayout>
