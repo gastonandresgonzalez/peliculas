@@ -8,8 +8,12 @@ import android.graphics.BitmapFactory;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ListView;
+import android.widget.RatingBar;
 import android.widget.Toast;
 
 import java.io.File;
@@ -21,9 +25,14 @@ import java.util.List;
 import adapter.ListadoPeliculasAdapter;
 import database.DatabaseHelper;
 import model.DetallePeliculas;
+import model.User;
 
 public class ListadoPeliculasActivity extends Activity {
     private ListView listPelis;
+
+    private RatingBar mRatingBar;
+    private Button buttonCalif;
+
     private ListadoPeliculasAdapter adapter;
     private List<DetallePeliculas> mPeliculaDetalle;
     private DatabaseHelper mDBHelper;
@@ -33,16 +42,35 @@ public class ListadoPeliculasActivity extends Activity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main );
-        listPelis = (ListView)findViewById(R.id.listViewPeliculas );
+        listPelis = findViewById(R.id.listViewPeliculas );
+        mRatingBar = findViewById(R.id.ratingBarDetalle );
+        buttonCalif=findViewById(R.id.buttonRate);
+
         mDBHelper = new DatabaseHelper(this);
         mDBHelper.getReadableDatabase();
 
-        Integer datoPeli = getIntent().getIntExtra("id",-1);
+        final Integer datoPeli = getIntent().getIntExtra("id",-1);
 
         mPeliculaDetalle=mDBHelper.getListadoPeliculas(datoPeli);
-        adapter = new ListadoPeliculasAdapter(this, mPeliculaDetalle);
+        adapter = new ListadoPeliculasAdapter(this, mPeliculaDetalle );
         listPelis.setAdapter(adapter);
 
+    /*    buttonCalif.setOnClickListener ( new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v){
+                try {
+
+                    mDBHelper.setRate( mRatingBar.getNumStars() ,datoPeli);
+                    Intent i = new Intent(getApplicationContext(), MainActivity.class);
+
+                    startActivity(i);
+
+                } catch (IndexOutOfBoundsException error) {
+                    Toast.makeText(ListadoPeliculasActivity.this, "Error al abrir item", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });*/
 
     }
 

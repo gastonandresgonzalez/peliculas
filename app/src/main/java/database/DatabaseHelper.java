@@ -124,4 +124,18 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         return false;
     }
 
+    public boolean setRate(long valor,  int idPeli) {
+
+        openDatabase();
+        Cursor cursor = mDatabase.rawQuery("update peliculas set rating ='"+valor+"' where idpelicula '"+idPeli+"';", null);
+
+        if (null != cursor) {
+            cursor.moveToFirst();
+        }
+
+        cursor.close();
+        closeDatabase();
+        return true;
+    }
+
 }
