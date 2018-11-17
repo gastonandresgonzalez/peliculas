@@ -43,8 +43,6 @@ public class ListadoPeliculasActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.detalle );
         listPelis = findViewById(R.id.listViewPeliculasDetalle );
-        mRatingBar = findViewById(R.id.ratingBarDetalle );
-        buttonCalif=findViewById(R.id.buttonRate);
 
         mDBHelper = new DatabaseHelper(this);
         mDBHelper.getReadableDatabase();
@@ -54,23 +52,6 @@ public class ListadoPeliculasActivity extends Activity {
         mPeliculaDetalle=mDBHelper.getListadoPeliculas(datoPeli);
         adapter = new ListadoPeliculasAdapter(this , mPeliculaDetalle );
         listPelis.setAdapter(adapter);
-
-        buttonCalif.setOnClickListener ( new View.OnClickListener() {
-
-            @Override
-            public void onClick(View v){
-                try {
-
-                    mDBHelper.setRate( mRatingBar.getNumStars() ,datoPeli);
-                    Intent i = new Intent(getApplicationContext(), MainActivity.class);
-
-                    startActivity(i);
-
-                } catch (IndexOutOfBoundsException error) {
-                    Toast.makeText(ListadoPeliculasActivity.this, "Error al abrir item", Toast.LENGTH_SHORT).show();
-                }
-            }
-        });
 
     }
 
