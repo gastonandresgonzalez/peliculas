@@ -41,8 +41,8 @@ public class ListadoPeliculasActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main );
-        listPelis = findViewById(R.id.listViewPeliculas );
+        setContentView(R.layout.detalle );
+        listPelis = findViewById(R.id.listViewPeliculasDetalle );
         mRatingBar = findViewById(R.id.ratingBarDetalle );
         buttonCalif=findViewById(R.id.buttonRate);
 
@@ -52,10 +52,10 @@ public class ListadoPeliculasActivity extends Activity {
         final Integer datoPeli = getIntent().getIntExtra("id",-1);
 
         mPeliculaDetalle=mDBHelper.getListadoPeliculas(datoPeli);
-        adapter = new ListadoPeliculasAdapter(this, mPeliculaDetalle );
+        adapter = new ListadoPeliculasAdapter(this , mPeliculaDetalle );
         listPelis.setAdapter(adapter);
 
-    /*    buttonCalif.setOnClickListener ( new View.OnClickListener() {
+        buttonCalif.setOnClickListener ( new View.OnClickListener() {
 
             @Override
             public void onClick(View v){
@@ -70,7 +70,7 @@ public class ListadoPeliculasActivity extends Activity {
                     Toast.makeText(ListadoPeliculasActivity.this, "Error al abrir item", Toast.LENGTH_SHORT).show();
                 }
             }
-        });*/
+        });
 
     }
 
