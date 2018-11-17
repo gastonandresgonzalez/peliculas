@@ -101,6 +101,8 @@ public class ListPeliculasAdapter extends BaseAdapter {
         tv_pelicula_genero.setText(String.valueOf(mPeliculaList.get(position).getGenero()));
 
 
+
+
     return v;
 
     }

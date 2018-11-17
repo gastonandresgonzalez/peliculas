@@ -10,6 +10,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.ListView;
 import android.widget.RatingBar;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -19,6 +20,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.List;
 
+import database.DatabaseHelper;
 import model.DetallePeliculas;
 import ort.edu.org.pelisapp.ListadoPeliculasActivity;
 import ort.edu.org.pelisapp.MainActivity;
@@ -28,6 +30,8 @@ public class ListadoPeliculasAdapter extends BaseAdapter {
 
     private Context mContext;
     private List<DetallePeliculas> mPeliculaList;
+
+
 
     //para que funque el click del rate hay que agregar el click listener como parametro del adapter
     public ListadoPeliculasAdapter(Context mContext, List<DetallePeliculas> mPeliculaList){
@@ -51,14 +55,16 @@ public class ListadoPeliculasAdapter extends BaseAdapter {
     }
 
     @Override
-    public View getView(int position, View convertView, ViewGroup parent) {
+    public View getView(final int position, View convertView, ViewGroup parent) {
 
         Bitmap mPeliFoto = null;
         URL newurl = null;
 
 
+
+
         // genero la vista con el adapter
-        View v= View.inflate(mContext, R.layout.detalle, null );
+        View v= View.inflate(mContext, R.layout.item_detalle, null );
 
         TextView tv_pelicula_id = v.findViewById(R.id.tv_pelicula_id  );
         TextView tv_pelicula_titulo = v.findViewById(R.id.tv_pelicula_titulo  );
@@ -66,7 +72,7 @@ public class ListadoPeliculasAdapter extends BaseAdapter {
         ImageView tv_pelicula_url = v.findViewById(R.id.tv_pelicula_url  );
         TextView tv_pelicula_descripcion = v.findViewById(R.id.tv_pelicula_descripcion  );
         TextView tv_pelicula_duracion = v.findViewById(R.id.tv_pelicula_duracion  );
-        RatingBar tv_pelicula_rating = v.findViewById(R.id.ratingBarDetalle );
+        final RatingBar tv_pelicula_rating = v.findViewById(R.id.ratingBarDetalle );
         TextView tv_pelicula_director = v.findViewById(R.id.tv_pelicula_director  );
         TextView tv_pelicula_genero = v.findViewById(R.id.tv_pelicula_genero  );
         Button buttonRate = v.findViewById(R.id.buttonRate);
@@ -81,6 +87,8 @@ public class ListadoPeliculasAdapter extends BaseAdapter {
         } catch (IOException e) {
             e.printStackTrace();
         }
+
+
 
 
         try {
@@ -109,16 +117,22 @@ public class ListadoPeliculasAdapter extends BaseAdapter {
         tv_pelicula_director.setText(String.valueOf(mPeliculaList.get(position).getDirector()));
         tv_pelicula_genero.setText(String.valueOf(mPeliculaList.get(position).getGenero()));
 
+        buttonRate.setOnClickListener ( new View.OnClickListener() {
 
-
-        buttonRate.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                Toast.makeText(mContext ,"Calificacion Guardada",Toast.LENGTH_SHORT);
+            public void onClick(View v){
+                DatabaseHelper mDBHelper=new DatabaseHelper(mContext);
+                mDBHelper.getWritableDatabase();
+
+                int valor= (int) tv_pelicula_rating.getRating();
+
+                mDBHelper.setRate( valor ,Integer.valueOf(mPeliculaList.get(position).getId()));
+                Intent i = new Intent(mContext, MainActivity.class);
+                mContext.startActivity(i);
             }
         });
 
-        return v;
+         return v;
 
     }
 
