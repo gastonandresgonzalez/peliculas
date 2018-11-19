@@ -26,9 +26,18 @@ import database.DatabaseHelper;
 import model.DetallePeliculas;
 
 public class MainActivity extends Activity {
-    private ListView listPelis;
-    private ListPeliculasAdapter adapter;
-    private List<DetallePeliculas> mPeliculaDetalle;
+    private ListView listPelisTerror;
+    private ListView listPelisSuspenso;
+    private ListView listPelisDrama;
+
+    private ListPeliculasAdapter adapterTerror;
+    private ListPeliculasAdapter adapterSuspenso;
+    private ListPeliculasAdapter adapterDrama;
+
+    private List<DetallePeliculas> mPeliculaDetalleTerror;
+    private List<DetallePeliculas> mPeliculaDetalleSuspenso;
+    private List<DetallePeliculas> mPeliculaDetalleDrama;
+
     private DatabaseHelper mDBHelper;
 
     @Override
@@ -36,7 +45,10 @@ public class MainActivity extends Activity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        listPelis = (ListView) findViewById(R.id.listViewPeliculas);
+        listPelisTerror = (ListView) findViewById(R.id.listViewPeliculasTerror);
+        listPelisSuspenso = (ListView) findViewById(R.id.listViewPeliculasSuspenso);
+        listPelisDrama = (ListView) findViewById(R.id.listViewPeliculasDrama);
+
         mDBHelper = new DatabaseHelper(this);
 
         //Check exists database
@@ -52,11 +64,76 @@ public class MainActivity extends Activity {
             }
         }
 
-        mPeliculaDetalle = mDBHelper.getDetallePeliculas();
-        adapter = new ListPeliculasAdapter(this, mPeliculaDetalle);
-        listPelis.setAdapter(adapter);
+        mPeliculaDetalleTerror = mDBHelper.getDetallePeliculasTerror();
+        mPeliculaDetalleSuspenso = mDBHelper.getDetallePeliculasSuspenso();
+        mPeliculaDetalleDrama = mDBHelper.getDetallePeliculasDrama();
 
-        listPelis.setOnItemClickListener(new AdapterView.OnItemClickListener () {
+
+        adapterSuspenso = new ListPeliculasAdapter(this, mPeliculaDetalleSuspenso);
+        adapterTerror = new ListPeliculasAdapter(this, mPeliculaDetalleTerror);
+        adapterDrama = new ListPeliculasAdapter(this, mPeliculaDetalleDrama);
+
+
+        try {
+            listPelisTerror.setAdapter(adapterTerror);
+        } catch (NullPointerException error) {
+            Toast.makeText(MainActivity.this, "No hay peliculas de Terror cargadas", Toast.LENGTH_SHORT).show();
+        }
+
+        try {
+            listPelisDrama.setAdapter(adapterDrama);
+        } catch (NullPointerException error) {
+            Toast.makeText(MainActivity.this, "No hay peliculas de Suspenso cargadas", Toast.LENGTH_SHORT).show();
+        }
+
+        try {
+            listPelisSuspenso.setAdapter(adapterSuspenso);
+        } catch (NullPointerException error) {
+            Toast.makeText(MainActivity.this, "No hay peliculas de Suspenso cargadas", Toast.LENGTH_SHORT).show();
+        }
+
+
+        listPelisTerror.setOnItemClickListener(new AdapterView.OnItemClickListener () {
+
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+                try {
+
+                    Intent i = new Intent(getApplicationContext(), ListadoPeliculasActivity.class);
+
+                    i.putExtra("id", (int) id);
+
+                    startActivity(i);
+
+                } catch (IndexOutOfBoundsException error) {
+                    Toast.makeText(MainActivity.this, "Error al abrir item", Toast.LENGTH_SHORT).show();
+                }
+            }
+
+        });
+
+        listPelisDrama.setOnItemClickListener(new AdapterView.OnItemClickListener () {
+
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+                try {
+
+                    Intent i = new Intent(getApplicationContext(), ListadoPeliculasActivity.class);
+
+                    i.putExtra("id", (int) id);
+
+                    startActivity(i);
+
+                } catch (IndexOutOfBoundsException error) {
+                    Toast.makeText(MainActivity.this, "Error al abrir item", Toast.LENGTH_SHORT).show();
+                }
+            }
+
+        });
+
+        listPelisSuspenso.setOnItemClickListener(new AdapterView.OnItemClickListener () {
 
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
