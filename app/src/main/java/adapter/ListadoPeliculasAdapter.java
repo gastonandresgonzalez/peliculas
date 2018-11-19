@@ -32,8 +32,6 @@ public class ListadoPeliculasAdapter extends BaseAdapter {
     private List<DetallePeliculas> mPeliculaList;
 
 
-
-    //para que funque el click del rate hay que agregar el click listener como parametro del adapter
     public ListadoPeliculasAdapter(Context mContext, List<DetallePeliculas> mPeliculaList){
         this.mContext = mContext;
         this.mPeliculaList = mPeliculaList;
