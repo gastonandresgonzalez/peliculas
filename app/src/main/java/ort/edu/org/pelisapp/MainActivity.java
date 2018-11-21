@@ -21,7 +21,6 @@ import java.io.OutputStream;
 import java.util.List;
 
 import adapter.ListPeliculasAdapter;
-import adapter.ListadoPeliculasAdapter;
 import database.DatabaseHelper;
 import model.DetallePeliculas;
 
@@ -45,9 +44,9 @@ public class MainActivity extends Activity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        listPelisTerror = (ListView) findViewById(R.id.listViewPeliculasTerror);
-        listPelisSuspenso = (ListView) findViewById(R.id.listViewPeliculasSuspenso);
-        listPelisDrama = (ListView) findViewById(R.id.listViewPeliculasDrama);
+        listPelisTerror = findViewById(R.id.listViewPeliculasTerror);
+        listPelisSuspenso = findViewById(R.id.listViewPeliculasSuspenso);
+        listPelisDrama = findViewById(R.id.listViewPeliculasDrama);
 
         mDBHelper = new DatabaseHelper(this);
 

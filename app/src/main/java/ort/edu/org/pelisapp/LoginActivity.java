@@ -8,22 +8,14 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ListView;
 import android.widget.Toast;
-
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.InputStream;
 import java.io.OutputStream;
-import java.util.List;
-
 import database.DatabaseHelper;
 import model.User;
 
-
-/**
- * A login screen that offers login via email/password.
- */
 public class LoginActivity extends Activity{
 
     private DatabaseHelper mDBHelper=new DatabaseHelper(this);
@@ -87,7 +79,6 @@ public class LoginActivity extends Activity{
         user_email = findViewById(R.id.tv_email);
         user_passwd = findViewById(R.id.tv_password);
 
-
         blogin.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -110,8 +101,6 @@ public class LoginActivity extends Activity{
         });
 
     }
-
-
 
 }
 

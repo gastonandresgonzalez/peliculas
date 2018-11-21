@@ -11,77 +11,16 @@ public class DetallePeliculas {
     private String director;
     private String genero;
 
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public String getTitulo() {
-        return titulo;
-    }
-
-    public void setTitulo(String titulo) {
-        this.titulo = titulo;
-    }
-
-    public int getAnio() {
-        return anio;
-    }
-
-    public void setAnio(int anio) {
-        this.anio = anio;
-    }
-
-    public String getUrl() {
-        return url;
-    }
-
-    public void setUrl(String url) {
-        this.url = url;
-    }
-
-    public String getDescripcion() {
-        return descripcion;
-    }
-
-    public void setDescripcion(String descripcion) {
-        this.descripcion = descripcion;
-    }
-
-    public int getDuracion() {
-        return duracion;
-    }
-
-    public void setDuracion(int duracion) {
-        this.duracion = duracion;
-    }
-
-    public int getRating() {
-        return rating;
-    }
-
-    public void setRating(int rating) {
-        this.rating = rating;
-    }
-
-    public String getDirector() {
-        return director;
-    }
-
-    public void setDirector(String director) {
-        this.director = director;
-    }
-
-    public String getGenero() {
-        return genero;
-    }
-
-    public void setGenero(String genero) {
-        this.genero = genero;
-    }
+    public int getId() {return id;}
+    public void setId(int id) {this.id = id;}
+    public String getTitulo() {return titulo;}
+    public int getAnio() {return anio;}
+    public String getUrl() {return url;}
+    public String getDescripcion() {return descripcion;}
+    public int getDuracion() {return duracion;}
+    public int getRating() {return rating;}
+    public String getDirector() {return director;}
+    public String getGenero() {return genero;}
 
     public DetallePeliculas(int id, String titulo, int anio, String url, String descripcion, int duracion, int rating, String director, String genero) {
         this.id=id;
