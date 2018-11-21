@@ -10,10 +10,8 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.ListView;
 import android.widget.RatingBar;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import java.io.IOException;
 import java.net.MalformedURLException;
@@ -22,7 +20,6 @@ import java.util.List;
 
 import database.DatabaseHelper;
 import model.DetallePeliculas;
-import ort.edu.org.pelisapp.ListadoPeliculasActivity;
 import ort.edu.org.pelisapp.MainActivity;
 import ort.edu.org.pelisapp.R;
 
@@ -58,9 +55,6 @@ public class ListadoPeliculasAdapter extends BaseAdapter {
         Bitmap mPeliFoto = null;
         URL newurl = null;
 
-
-
-
         // genero la vista con el adapter
         View v= View.inflate(mContext, R.layout.item_detalle, null );
 
@@ -75,8 +69,6 @@ public class ListadoPeliculasAdapter extends BaseAdapter {
         TextView tv_pelicula_genero = v.findViewById(R.id.tv_pelicula_genero  );
         Button buttonRate = v.findViewById(R.id.buttonRate);
 
-
-
         tv_pelicula_rating.setRating(Long.valueOf(mPeliculaList.get(position).getRating()));
         try {
             newurl = new URL(String.valueOf(mPeliculaList.get(position).getUrl ()));
@@ -85,9 +77,6 @@ public class ListadoPeliculasAdapter extends BaseAdapter {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
-
-
 
         try {
 
